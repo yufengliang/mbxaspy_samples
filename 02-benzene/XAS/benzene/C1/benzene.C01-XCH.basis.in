@@ -1,0 +1,5 @@
+&input
+  prefix='benzene.C01-XCH',
+  outdir='./',
+  trace_tol=1.d-8,
+/

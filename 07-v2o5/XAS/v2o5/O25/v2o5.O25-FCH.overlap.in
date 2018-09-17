@@ -1,0 +1,6 @@
+&input
+    prefix1 = 'v2o5_opt'
+    outdir1 = '../GS'
+    prefix2 = 'v2o5.O25-FCH_opt'
+    outdir2 = './'
+/

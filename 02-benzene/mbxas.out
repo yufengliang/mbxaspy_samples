@@ -1,0 +1,93 @@
+XYZFILES = benzene.xyz
+Working on xyz-file benzene.xyz
+Converting benzene.xyz to input
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+
+====================================================================================================
+PID 4726 |  Starting execution for XAS/atom0 at: Wed Sep  5 17:31:22 PDT 2018 | 17:31:22 | 
+====================================================================================================
+PID 4726 | XAS/atom0 | 17:31:22 | Running directory /global/scratch/yufengl/mbxas/benzene
+XAS/atom0 | 17:31:22 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/benzene/XAS/atom
+Atomic types:        C H 
+Number of types:     2
+
+Running atomic calculation for element C
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/C.pbe-van-yufengl.UPF
+Number of electrons: 4.00000000000
+Number of bands:     6
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by XCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 17:31:22 | ATOM_REF completed
+====================================================================================================
+PID 4726 |  Stopping execution for XAS/atom0 at: Wed Sep  5 17:31:22 PDT 2018 | 17:31:22 | 
+PID 4726 |  Wall time: 0d 0h 0m 0s | 17:31:22 | 
+====================================================================================================
+
+Atom C - E_GS=-10.72319796 Ry    E_CH=-18.71547778 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+benzene C 1 -83.25935914 -18.71547778 -75.35501807 -10.72319796 -1.74098278541849 -22.0814 22.8722
+ user input shift to expt,   ESHIFT = 284.0
+ lowest of the low energies         = 285.196
+ lowest of the high energies        = 309.81
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum 10 wrt highest
+ ELOW = -5
+ EHIGH = 34.614
+# Empirical input ESHIFT = 284.0
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+benzene C 1 286.93738947541849 2.93738947541849
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13940588
+ Job hosts                     = n0027.etna0,n0028.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/benzene
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 2
+ Number of processors          = 32
+ Number of tasks per node      = 16
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/benzene/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 2
+ Number of processors per atom = 32
+PID 4877 | 17:31:25 | done reading /global/scratch/yufengl/mbxas/benzene/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 4928 | 17:31:27 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1
+Located nodefile /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1/Node-13940588-1
+
+====================================================================================================
+PID 4928 |  Starting execution for benzene/C1 at: Wed Sep  5 17:31:27 PDT 2018 | 17:31:27 | 
+====================================================================================================
+PID 4928 | benzene/C1 | 17:31:27 | Running directory /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1
+PID 4928 | 17:31:27 | mbxas
+PID 4928 | benzene/C1 | 17:31:27 | Starting MBXAS...
+PID 4928 | benzene/C1 | 17:31:27 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 4928 | benzene/C1 | 17:32:16 | MBXAS completed
+====================================================================================================
+PID 4928 |  Stopping execution for benzene/C1 at: Wed Sep  5 17:32:16 PDT 2018 | 17:32:16 | 
+PID 4928 |  Wall time: 0d 0h 0m 49s | 17:32:16 | 
+====================================================================================================
+

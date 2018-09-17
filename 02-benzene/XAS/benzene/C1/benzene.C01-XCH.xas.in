@@ -1,0 +1,13 @@
+&input
+  prefix='benzene.C01-XCH_opt',
+  outdir='./',
+  outfile='benzene.C01-XCH.xas.5',
+  readcorerep=.true., eigvec_output=.true., proj_output=.true.
+/
+K_POINTS
+  automatic
+  5 5 5 0 0 0
+COREREP
+  3 12
+  1
+  3  1  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/C.pbe-van-dgp-1s1.pos'

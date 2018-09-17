@@ -1,0 +1,11 @@
+&input
+    prefix='v2o5.O67-FCH_opt',
+    outdir='./',
+    updatepp=.false.,
+    ncpp=.false.,
+    pseudo_dir='/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos',
+    nspin_ham=2
+/
+K_POINTS
+    2 2 2 0 0 0
+    

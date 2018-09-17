@@ -1,0 +1,83 @@
+XYZFILES = cro2.xyz
+Working on xyz-file cro2.xyz
+Converting cro2.xyz to input
+FCH implies tot_charge = 1.0
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13917121
+ Job hosts                     = n0141.etna0,n0142.etna0,n0143.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/cro2
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 3
+ Number of processors          = 64
+ Number of tasks per node      = 21
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/cro2/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 3
+ Number of processors per atom = 64
+PID 81646 | 11:51:56 | done reading /global/scratch/yufengl/mbxas/cro2/Task_Block.in
+PID 81646 | 11:51:57 | scf; nscf; basis; ham; xmat
+PID 81646 | 11:51:57 |  Master process just spawned child process 81681 - /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS
+PID 81681 | 11:51:57 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS
+Located nodefile /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS/Node-13917121-1
+
+====================================================================================================
+PID 81681 |  Starting execution for cro2/GS0 at: Wed Aug 29 11:51:57 PDT 2018 | 11:51:57 | 
+====================================================================================================
+PID 81681 | cro2/GS0 | 11:51:57 | Running directory /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS
+PID 81681 | 11:51:57 | scf; nscf; basis; ham; xmat
+PID 81681 | 11:51:57 | scf: looks completed - delete output files if this is an error
+PID 81681 | 11:51:57 | nscf: looks completed - delete output files if this is an error
+PID 81681 | 11:51:58 | basis: looks completed - delete output files if this is an error
+PID 81681 | 11:51:58 | ham: looks completed - delete output files if this is an error
+PID 81681 | 11:51:58 | xmat: looks completed - delete output files if this is an error
+====================================================================================================
+PID 81681 |  Stopping execution for cro2/GS0 at: Wed Aug 29 11:51:58 PDT 2018 | 11:51:58 | 
+PID 81681 |  Wall time: 0d 0h 0m 1s | 11:51:58 | 
+====================================================================================================
+
+PID 81646 | 11:51:58 | scf; nscf; basis; ham; basis_overlap; xas
+PID 81646 | 11:51:58 |  Master process just spawned child process 81744 - /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25
+PID 81744 | 11:51:58 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25
+Located nodefile /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25/Node-13917121-1
+
+====================================================================================================
+PID 81744 |  Starting execution for cro2/O25 at: Wed Aug 29 11:51:59 PDT 2018 | 11:51:59 | 
+====================================================================================================
+PID 81744 | cro2/O25 | 11:51:59 | Running directory /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25
+PID 81744 | 11:51:59 | scf; nscf; basis; ham; basis_overlap; xas
+PID 81744 | 11:51:59 | scf: looks completed - delete output files if this is an error
+PID 81744 | cro2/O25 | 11:51:59 | Starting NSCF...
+PID 81744 | cro2/O25 | 11:51:59 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 81744 | cro2/O25 | 12:14:01 | NSCF completed
+PID 81744 | 12:14:01 | basis: looks completed - delete output files if this is an error
+PID 81744 | cro2/O25 | 12:14:01 | Starting HAM...
+PID 81744 | cro2/O25 | 12:14:01 | Running shirley_ham.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_ham.x
+====================================================================================================
+PID 81744 | cro2/O25 | 12:14:40 | HAM completed
+PID 81744 | 12:14:40 | basis_overlap: looks completed - delete output files if this is an error
+PID 81744 | 12:14:40 | cro2.O25-FCH.ham.out: nbasis = 1615, nproj = 816, nknot = 27
+ Estimated data load per atom (MB) = 742
+ Processes available per atom, PARA_NPROCS_PER_ATOM = 64
+setup_procs_per_pool: Setting a reasonable default value for memory available per process
+ Memory avail(MB) per process, PARA_PROC_MEM = 1024
+ Proccesses per pool per atom, PARA_NPROCS_PER_POOL = 1
+PID 81744 | cro2/O25 | 12:14:40 | Starting XAS...
+PID 81744 | cro2/O25 | 12:14:40 | Running shirley_xas.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0141.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0142.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0,n0143.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_xas.x 1
+====================================================================================================
+PID 81744 | cro2/O25 | 12:15:36 | XAS completed
+====================================================================================================
+PID 81744 |  Stopping execution for cro2/O25 at: Wed Aug 29 12:15:36 PDT 2018 | 12:15:36 | 
+PID 81744 |  Wall time: 0d 0h 23m 37s | 12:15:36 | 
+====================================================================================================
+

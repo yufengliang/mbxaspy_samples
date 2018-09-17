@@ -1,0 +1,6 @@
+&input
+    prefix1 = 'acetic_opt'
+    outdir1 = '../GS'
+    prefix2 = 'acetic.O1-XCH_opt'
+    outdir2 = './'
+/

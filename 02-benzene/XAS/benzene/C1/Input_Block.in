@@ -1,0 +1,198 @@
+# Version of the code
+SHIRLEY_ROOT=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley
+# MBXAS
+MBXASPY_ROOT=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy
+# pseudopotentials
+PSEUDO_DIR=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos
+
+# Parallel processing environment settings
+PARA_COMMAND="mpirun"
+PARA_COMMAND_FULLPATH=
+PARA_PREFIX_FORMAT=
+PARA_NPROCS_PER_NODE=
+PARA_NPROCS_PER_POOL="4"
+PARA_POSTFIX=
+PARA_NJOB="1"
+PARA_PPN="32"
+
+#PYTHON - needs to be version 2.7+
+PYTHON_COMMAND="python"
+
+MOLNAME="benzene"
+XYZFILES="*.xyz"
+
+# Add these lines to Input_Block.in
+# You choose the elements to excite
+# uncomment or edit these lines to make your preferred XASELEMENTS
+# XASELEMENTS='C H'
+# XASELEMENTS='C1 H2 C3 H4 C5 H6 C7 H8 C9 H10 C11 H12'
+XASELEMENTS='C1'
+
+IBRAV=14
+A=14.31332
+B=14.98058
+C=10.00000
+XYZUNIT='angstrom'
+
+# PUT LATTICE VECTOR INFO HERE
+# at minimum
+# IBRAV=1
+# A=15.0
+# XYZUNIT='angstrom'
+
+# Adjust for experimental alignment of energy axis
+ESHIFT=284.0
+
+# Please change this according to which pseudos you are using
+#pseudopotential postfix
+PSEUDO_POT_ES_POST_FIX=pbe-van-dgp-1s1.UPF
+
+# number of empty orbitals controlled by this factor which multiplies occupied orbital number
+NBND_FAC=30
+# uncommment this line to make full use of the Shirley basis in MBXAS calculations
+# Note that this may lead to nonsense at higher energies - you really can only rely
+# on states produced up to the band indices of the GS and/or CH excited state NSCF calcs
+#NBND_MBXAS='nbasis'
+
+# SCF k-points 
+K_POINTS="K_POINTS automatic
+1 1 1 0 0 0"
+
+# k-point grid for XAS calculations nxnxn
+XAS_ARG=5
+
+
+# Details for mbxaspy
+# excitation order
+# MAXFN = 1 => single e-h pairs
+# MAXFN = 2 => double e-h pairs (core excitation plus valence excitation)
+# etc.
+MAXFN='1'
+
+# Do not consider intensities less than this fraction of the most intense peak
+I_THR='1e-3'
+
+# numerical details for XAS calculation
+SIGMA=0.3  # Gaussian broadening
+NENER=1000  # Number of energy points
+ELOW=-5     # Begin spectrum this far below lowest eigenvalue
+EHIGH=10    # Stop spectrum this far above highest trustable eigenvalue
+ETEMP=0.0   # Electron temp
+DILATION=1.0
+#EVEC="1 0 0"
+#KVEC="0 0 1"
+
+#####################################################
+# Hopefully you never have to change these parameters
+
+# where will output be dumped
+TMP_DIR=./
+
+# xc functional
+PSEUDO_FUNCTIONAL=pbe
+
+#XAS info
+CHAPPROX="XCH"
+
+#Defines the variables from the 'system' namespace
+ECUT_WFC='25'
+ECUT_RHO='200'
+OCCUPATIONS='smearing'
+SMEARING='fd'
+DEGAUSS=0.0019
+
+#Defines the variables from the 'electrons' namespace
+DIAG='david'
+DIAG_NSCF='david'
+ELEC_CONV_THR='1.0d-8'
+ELEC_MIXING_BETA='0.3'
+MIXING_MODE='local-TF'
+electron_maxstep=200
+
+# SCF System details
+tot_charge=0
+FORCESTRESS="tstress=.true., tprnfor=.true."
+PW_POSTFIX=""
+
+#SPIN="    nspin=2
+#    starting_magnetization(2)=0.0,
+#    starting_magnetization(3)=0.0,"
+#LDAU="lda_plus_u=.true., Hubbard_U(2)=3.1"
+
+DOWHAT="XAS"
+
+state_type='cube'
+states=()
+# xyz2inp - convert XYZ file to Input_Block.in
+
+NAT=12
+NTYP=2
+NELEC=30.00000000000
+NBND=19
+
+ATOMIC_SPECIES="ATOMIC_SPECIES
+C 12.00 C.pbe-van-yufengl.UPF
+H 1.0079 H.pbe-van_bm.UPF"
+ATOMIC_POSITIONS="ATOMIC_POSITIONS angstrom
+  C        0.00000        1.40272        0.00000
+  H        0.00000        2.49029        0.00000
+  C       -1.21479        0.70136        0.00000
+  H       -2.15666        1.24515        0.00000
+  C       -1.21479       -0.70136        0.00000
+  H       -2.15666       -1.24515        0.00000
+  C        0.00000       -1.40272        0.00000
+  H        0.00000       -2.49029        0.00000
+  C        1.21479       -0.70136        0.00000
+  H        2.15666       -1.24515        0.00000
+  C        1.21479        0.70136        0.00000
+  H        2.15666        1.24515        0.00000"
+
+#Process information----------------------------------------
+
+#---------------------Atomic symbols-------------------------
+
+ATOM_SYMBOL[1]='C'
+ATOM_SYMBOL[2]='H'
+ATOM_SYMBOL[3]='C'
+ATOM_SYMBOL[4]='H'
+ATOM_SYMBOL[5]='C'
+ATOM_SYMBOL[6]='H'
+ATOM_SYMBOL[7]='C'
+ATOM_SYMBOL[8]='H'
+ATOM_SYMBOL[9]='C'
+ATOM_SYMBOL[10]='H'
+ATOM_SYMBOL[11]='C'
+ATOM_SYMBOL[12]='H'
+
+#---------------------Atomic masses--------------------------
+
+ATOM_MASS[1]='12.00'
+ATOM_MASS[2]='1.0079'
+ATOM_MASS[3]='12.00'
+ATOM_MASS[4]='1.0079'
+ATOM_MASS[5]='12.00'
+ATOM_MASS[6]='1.0079'
+ATOM_MASS[7]='12.00'
+ATOM_MASS[8]='1.0079'
+ATOM_MASS[9]='12.00'
+ATOM_MASS[10]='1.0079'
+ATOM_MASS[11]='12.00'
+ATOM_MASS[12]='1.0079'
+
+#-----------------Excitation indicator-----------------------
+
+IND_EXCITATION[1]='1'
+IND_EXCITATION[2]='0'
+IND_EXCITATION[3]='0'
+IND_EXCITATION[4]='0'
+IND_EXCITATION[5]='0'
+IND_EXCITATION[6]='0'
+IND_EXCITATION[7]='0'
+IND_EXCITATION[8]='0'
+IND_EXCITATION[9]='0'
+IND_EXCITATION[10]='0'
+IND_EXCITATION[11]='0'
+IND_EXCITATION[12]='0'
+ELOW=-5
+EHIGH=34.614
+ESHIFT_FINAL=286.93738947541849

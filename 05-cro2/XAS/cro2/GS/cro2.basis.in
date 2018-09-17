@@ -1,0 +1,5 @@
+&input
+  prefix='cro2',
+  outdir='./',
+  trace_tol=1.d-8,
+/

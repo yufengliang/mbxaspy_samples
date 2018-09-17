@@ -1,0 +1,114 @@
+XYZFILES = tio2.xyz
+Working on xyz-file tio2.xyz
+Converting tio2.xyz to input
+FCH implies tot_charge = 1.0
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/tio2/XAS/tio2/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/tio2/XAS/tio2/O25 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13917114
+ Job hosts                     = n0061.etna0,n0169.etna0,n0174.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/tio2
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 3
+ Number of processors          = 64
+ Number of tasks per node      = 21
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/tio2/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 3
+ Number of processors per atom = 64
+PID 5368 | 10:54:46 | done reading /global/scratch/yufengl/mbxas/tio2/Task_Block.in
+PID 5368 | 10:54:47 | scf; nscf; basis; ham; xmat
+PID 5368 | 10:54:47 |  Master process just spawned child process 5404 - /global/scratch/yufengl/mbxas/tio2/XAS/tio2/GS
+PID 5404 | 10:54:47 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/tio2/XAS/tio2/GS
+Located nodefile /global/scratch/yufengl/mbxas/tio2/XAS/tio2/GS/Node-13917114-1
+
+====================================================================================================
+PID 5404 |  Starting execution for tio2/GS0 at: Wed Aug 29 10:54:47 PDT 2018 | 10:54:47 | 
+====================================================================================================
+PID 5404 | tio2/GS0 | 10:54:47 | Running directory /global/scratch/yufengl/mbxas/tio2/XAS/tio2/GS
+PID 5404 | 10:54:47 | scf; nscf; basis; ham; xmat
+PID 5404 | tio2/GS0 | 10:54:48 | Starting SCF...
+PID 5404 | tio2/GS0 | 10:54:48 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+PID 5368 | 10:54:48 | scf; nscf; basis; ham; basis_overlap; xas
+PID 5368 | 10:54:48 |  Master process just spawned child process 5474 - /global/scratch/yufengl/mbxas/tio2/XAS/tio2/O25
+PID 5474 | 10:54:48 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/tio2/XAS/tio2/O25
+====================================================================================================
+PID 5404 | tio2/GS0 | 11:02:08 | SCF completed
+PID 5404 | tio2/GS0 | 11:02:08 | Starting NSCF...
+PID 5404 | tio2/GS0 | 11:02:08 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 5404 | tio2/GS0 | 11:07:29 | NSCF completed
+PID 5404 | tio2/GS0 | 11:07:29 | Starting BASIS...
+PID 5404 | tio2/GS0 | 11:07:29 | Running shirley_basis.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_basis.x
+====================================================================================================
+PID 5404 | tio2/GS0 | 11:09:44 | BASIS completed
+PID 5404 | tio2/GS0 | 11:09:44 | Starting HAM...
+PID 5404 | tio2/GS0 | 11:09:44 | Running shirley_ham.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_ham.x
+====================================================================================================
+PID 5404 | tio2/GS0 | 11:10:42 | HAM completed
+PID 5404 | 11:10:42 | tio2.ham.out: nbasis = 2449, nproj = 816, nknot = 27
+ Estimated data load per atom (MB) = 1281
+ Processes available per atom, PARA_NPROCS_PER_ATOM = 64
+setup_procs_per_pool: Setting a reasonable default value for memory available per process
+ Memory avail(MB) per process, PARA_PROC_MEM = 1024
+ Proccesses per pool per atom, PARA_NPROCS_PER_POOL = 2
+PID 5404 | tio2/GS0 | 11:10:42 | Starting XMAT...
+PID 5404 | 11:10:42 | ind_s = 1, S = O, ATOM_SYMBOL = O;
+PID 5404 | tio2/GS0 | 11:10:42 | Running shirley_xas.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_xas.x 2
+====================================================================================================
+PID 5404 | tio2/GS0 | 11:12:28 | XMAT completed
+====================================================================================================
+PID 5404 |  Stopping execution for tio2/GS0 at: Wed Aug 29 11:12:28 PDT 2018 | 11:12:28 | 
+PID 5404 |  Wall time: 0d 0h 17m 41s | 11:12:28 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/tio2/XAS/tio2/O25/Node-13917114-1
+
+====================================================================================================
+PID 5474 |  Starting execution for tio2/O25 at: Wed Aug 29 11:12:29 PDT 2018 | 11:12:29 | 
+====================================================================================================
+PID 5474 | tio2/O25 | 11:12:29 | Running directory /global/scratch/yufengl/mbxas/tio2/XAS/tio2/O25
+PID 5474 | 11:12:29 | scf; nscf; basis; ham; basis_overlap; xas
+PID 5474 | tio2/O25 | 11:12:29 | Starting SCF...
+PID 5474 | tio2/O25 | 11:12:29 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 5474 | tio2/O25 | 11:21:57 | SCF completed
+PID 5474 | tio2/O25 | 11:21:58 | Starting NSCF...
+PID 5474 | tio2/O25 | 11:21:58 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 5474 | tio2/O25 | 11:28:53 | NSCF completed
+PID 5474 | tio2/O25 | 11:28:53 | Starting BASIS...
+PID 5474 | tio2/O25 | 11:28:53 | Running shirley_basis.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_basis.x
+====================================================================================================
+PID 5474 | tio2/O25 | 11:31:13 | BASIS completed
+PID 5474 | tio2/O25 | 11:31:13 | Starting HAM...
+PID 5474 | tio2/O25 | 11:31:13 | Running shirley_ham.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_ham.x
+====================================================================================================
+PID 5474 | tio2/O25 | 11:32:11 | HAM completed
+PID 5474 | tio2/O25 | 11:32:11 | Starting BASIS_OVERLAP...
+tio2.O25-FCH | Running shirley_overlap.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_overlap.x
+====================================================================================================
+PID 5474 | tio2/O25 | 11:47:50 | BASIS_OVERLAP completed
+PID 5474 | 11:47:50 | tio2.O25-FCH.ham.out: nbasis = 2449, nproj = 816, nknot = 27
+ Estimated data load per atom (MB) = 1281
+ Processes available per atom, PARA_NPROCS_PER_ATOM = 64
+setup_procs_per_pool: Setting a reasonable default value for memory available per process
+ Memory avail(MB) per process, PARA_PROC_MEM = 1024
+ Proccesses per pool per atom, PARA_NPROCS_PER_POOL = 2
+PID 5474 | tio2/O25 | 11:47:50 | Starting XAS...
+PID 5474 | tio2/O25 | 11:47:50 | Running shirley_xas.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 64 -host n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0061.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0169.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0,n0174.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_xas.x 2
+====================================================================================================
+PID 5474 | tio2/O25 | 11:49:35 | XAS completed
+====================================================================================================
+PID 5474 |  Stopping execution for tio2/O25 at: Wed Aug 29 11:49:35 PDT 2018 | 11:49:35 | 
+PID 5474 |  Wall time: 0d 0h 37m 6s | 11:49:35 | 
+====================================================================================================
+

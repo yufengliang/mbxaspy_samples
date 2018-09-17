@@ -1,0 +1,6 @@
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/GS scf nscf basis ham xmat
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O25 scf nscf basis ham basis_overlap xas
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O31 scf nscf basis ham basis_overlap xas
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O49 scf nscf basis ham basis_overlap xas
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O55 scf nscf basis ham basis_overlap xas
+/global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O67 scf nscf basis ham basis_overlap xas

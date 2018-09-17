@@ -1,0 +1,128 @@
+# Version of the code
+SHIRLEY_ROOT=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley
+# MBXAS
+MBXASPY_ROOT=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy
+# pseudopotentials
+PSEUDO_DIR=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos
+
+# Parallel processing environment settings
+PARA_COMMAND="mpirun"
+PARA_COMMAND_FULLPATH=
+PARA_PREFIX_FORMAT=
+PARA_NPROCS_PER_NODE=
+PARA_NPROCS_PER_POOL="4"
+PARA_POSTFIX=
+PARA_NJOB="1"
+PARA_PPN="64"
+
+#PYTHON - needs to be version 2.7+
+PYTHON_COMMAND="python"
+
+MOLNAME="tio2"
+XYZFILES="*.xyz"
+
+# Add these lines to Input_Block.in
+# You choose the elements to excite
+# uncomment or edit these lines to make your preferred XASELEMENTS
+# XASELEMENTS='Ti O'
+# XASELEMENTS='Ti1 Ti2 Ti3 Ti4 Ti5 Ti6 Ti7 Ti8 Ti9 Ti10 Ti11 Ti12 Ti13 Ti14 Ti15 Ti16 Ti17 Ti18 Ti19 Ti20 Ti21 Ti22 Ti23 Ti24 O25 O26 O27 O28 O29 O30 O31 O32 O33 O34 O35 O36 O37 O38 O39 O40 O41 O42 O43 O44 O45 O46 O47 O48 O49 O50 O51 O52 O53 O54 O55 O56 O57 O58 O59 O60 O61 O62 O63 O64 O65 O66 O67 O68 O69 O70 O71 O72 '
+
+XASELEMENTS='O25'
+IBRAV=14
+A=9.1776
+B=9.1776
+C=8.8727
+COSBC=0.000000000000
+COSAC=0.000000000000
+COSAB=0.000000000000
+XYZUNIT='angstrom'
+
+# PUT LATTICE VECTOR INFO HERE
+# at minimum
+# IBRAV=1
+# A=15.0
+# XYZUNIT='angstrom'
+
+# Adjust for experimental alignment of energy axis
+ESHIFT=517.0
+
+# Please change this according to which pseudos you are using
+#pseudopotential postfix
+PSEUDO_POT_ES_POST_FIX=pbe-van-dgp-1s1.UPF
+
+# number of empty orbitals controlled by this factor which multiplies occupied orbital number
+NBND_FAC=3
+# uncommment this line to make full use of the Shirley basis in MBXAS calculations
+# Note that this may lead to nonsense at higher energies - you really can only rely
+# on states produced up to the band indices of the GS and/or CH excited state NSCF calcs
+#NBND_MBXAS='nbasis'
+
+# SCF k-points 
+K_POINTS="K_POINTS automatic
+2 2 2 0 0 0"
+
+# k-point grid for XAS calculations nxnxn
+XAS_ARG=5
+
+
+# Details for mbxaspy
+# excitation order
+# MAXFN = 1 => single e-h pairs
+# MAXFN = 2 => double e-h pairs (core excitation plus valence excitation)
+# etc.
+MAXFN='1'
+
+# Do not consider intensities less than this fraction of the most intense peak
+I_THR='1e-3'
+
+# numerical details for XAS calculation
+SIGMA=0.6   # Gaussian broadening
+NENER=1000  # Number of energy points
+ELOW=-5     # Begin spectrum this far below lowest eigenvalue
+EHIGH=15    # Stop spectrum this far above highest trustable eigenvalue
+ETEMP=0.0   # Electron temp
+DILATION=1.0
+#EVEC="1 0 0"
+#KVEC="0 0 1"
+
+#####################################################
+# Hopefully you never have to change these parameters
+
+# where will output be dumped
+TMP_DIR=./
+
+# xc functional
+PSEUDO_FUNCTIONAL=pbe
+
+#XAS info
+CHAPPROX="FCH"
+
+#Defines the variables from the 'system' namespace
+ECUT_WFC='30'
+ECUT_RHO='300'
+OCCUPATIONS='smearing'
+SMEARING='fd'
+DEGAUSS=0.0019
+
+#Defines the variables from the 'electrons' namespace
+DIAG='david'
+DIAG_NSCF='david'
+ELEC_CONV_THR='1.0d-8'
+ELEC_MIXING_BETA='0.3'
+MIXING_MODE='local-TF'
+electron_maxstep=200
+
+# SCF System details
+tot_charge=0
+FORCESTRESS="tstress=.true., tprnfor=.true."
+PW_POSTFIX=""
+
+#SPIN="    nspin=2
+#    starting_magnetization(2)=0.0,
+#    starting_magnetization(3)=0.0,"
+#LDAU="lda_plus_u=.true., Hubbard_U(2)=3.1"
+
+DOWHAT="XAS"
+
+state_type='cube'
+states=()

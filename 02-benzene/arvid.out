@@ -1,0 +1,113 @@
+XYZFILES = benzene.xyz
+Working on xyz-file benzene.xyz
+Converting benzene.xyz to input
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13938129
+ Job hosts                     = n0100.etna0,n0101.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/benzene
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 2
+ Number of processors          = 32
+ Number of tasks per node      = 16
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/benzene/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 2
+ Number of processors per atom = 32
+PID 31062 | 18:31:52 | done reading /global/scratch/yufengl/mbxas/benzene/Task_Block.in
+PID 31062 | 18:31:53 | scf; nscf; basis; ham; xmat
+PID 31062 | 18:31:53 |  Master process just spawned child process 31096 - /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS
+PID 31096 | 18:31:53 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS
+Located nodefile /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS/Node-13938129-1
+
+====================================================================================================
+PID 31096 |  Starting execution for benzene/GS0 at: Tue Sep  4 18:31:53 PDT 2018 | 18:31:53 | 
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:31:53 | Running directory /global/scratch/yufengl/mbxas/benzene/XAS/benzene/GS
+PID 31096 | 18:31:53 | scf; nscf; basis; ham; xmat
+PID 31096 | benzene/GS0 | 18:31:53 | Starting SCF...
+PID 31096 | benzene/GS0 | 18:31:53 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+PID 31062 | 18:31:54 | scf; nscf; basis; ham; basis_overlap; xas
+PID 31062 | 18:31:54 |  Master process just spawned child process 31275 - /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1
+PID 31275 | 18:31:54 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:32:13 | SCF completed
+PID 31096 | benzene/GS0 | 18:32:13 | Starting NSCF...
+PID 31096 | benzene/GS0 | 18:32:13 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:34:07 | NSCF completed
+PID 31096 | benzene/GS0 | 18:34:07 | Starting BASIS...
+PID 31096 | benzene/GS0 | 18:34:07 | Running shirley_basis.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_basis.x
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:34:52 | BASIS completed
+PID 31096 | benzene/GS0 | 18:34:52 | Starting HAM...
+PID 31096 | benzene/GS0 | 18:34:52 | Running shirley_ham.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_ham.x
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:35:09 | HAM completed
+PID 31096 | 18:35:09 | benzene.ham.out: nbasis = 969, nproj = 54, nknot = 27
+ Estimated data load per atom (MB) = 93
+ Processes available per atom, PARA_NPROCS_PER_ATOM = 32
+setup_procs_per_pool: Setting a reasonable default value for memory available per process
+ Memory avail(MB) per process, PARA_PROC_MEM = 1024
+ Proccesses per pool per atom, PARA_NPROCS_PER_POOL = 1
+PID 31096 | benzene/GS0 | 18:35:09 | Starting XMAT...
+PID 31096 | 18:35:09 | ind_s = 1, S = C, ATOM_SYMBOL = C;
+PID 31096 | benzene/GS0 | 18:35:09 | Running shirley_xas.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_xas.x 1
+====================================================================================================
+PID 31096 | benzene/GS0 | 18:35:19 | XMAT completed
+====================================================================================================
+PID 31096 |  Stopping execution for benzene/GS0 at: Tue Sep  4 18:35:19 PDT 2018 | 18:35:19 | 
+PID 31096 |  Wall time: 0d 0h 3m 26s | 18:35:19 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1/Node-13938129-1
+
+====================================================================================================
+PID 31275 |  Starting execution for benzene/C1 at: Tue Sep  4 18:35:19 PDT 2018 | 18:35:19 | 
+====================================================================================================
+PID 31275 | benzene/C1 | 18:35:19 | Running directory /global/scratch/yufengl/mbxas/benzene/XAS/benzene/C1
+PID 31275 | 18:35:19 | scf; nscf; basis; ham; basis_overlap; xas
+PID 31275 | benzene/C1 | 18:35:19 | Starting SCF...
+PID 31275 | benzene/C1 | 18:35:19 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 31275 | benzene/C1 | 18:35:44 | SCF completed
+PID 31275 | benzene/C1 | 18:35:44 | Starting NSCF...
+PID 31275 | benzene/C1 | 18:35:44 | Running pw.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/pw.x  
+====================================================================================================
+PID 31275 | benzene/C1 | 18:37:36 | NSCF completed
+PID 31275 | benzene/C1 | 18:37:36 | Starting BASIS...
+PID 31275 | benzene/C1 | 18:37:36 | Running shirley_basis.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_basis.x
+====================================================================================================
+PID 31275 | benzene/C1 | 18:38:21 | BASIS completed
+PID 31275 | benzene/C1 | 18:38:21 | Starting HAM...
+PID 31275 | benzene/C1 | 18:38:21 | Running shirley_ham.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_ham.x
+====================================================================================================
+PID 31275 | benzene/C1 | 18:38:39 | HAM completed
+PID 31275 | benzene/C1 | 18:38:39 | Starting BASIS_OVERLAP...
+benzene.C01-XCH | Running shirley_overlap.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_overlap.x
+====================================================================================================
+PID 31275 | benzene/C1 | 18:43:15 | BASIS_OVERLAP completed
+PID 31275 | 18:43:15 | benzene.C01-XCH.ham.out: nbasis = 969, nproj = 54, nknot = 27
+ Estimated data load per atom (MB) = 93
+ Processes available per atom, PARA_NPROCS_PER_ATOM = 32
+setup_procs_per_pool: Setting a reasonable default value for memory available per process
+ Memory avail(MB) per process, PARA_PROC_MEM = 1024
+ Proccesses per pool per atom, PARA_NPROCS_PER_POOL = 1
+PID 31275 | benzene/C1 | 18:43:15 | Starting XAS...
+PID 31275 | benzene/C1 | 18:43:15 | Running shirley_xas.x as: /global/software/sl-7.x86_64/modules/intel/2016.4.072/openmpi/2.0.2-intel/bin/mpirun -n 32 -host n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0100.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0,n0101.etna0  /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin/shirley_xas.x 1
+====================================================================================================
+PID 31275 | benzene/C1 | 18:43:24 | XAS completed
+====================================================================================================
+PID 31275 |  Stopping execution for benzene/C1 at: Tue Sep  4 18:43:24 PDT 2018 | 18:43:24 | 
+PID 31275 |  Wall time: 0d 0h 8m 5s | 18:43:24 | 
+====================================================================================================
+

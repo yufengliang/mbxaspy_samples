@@ -1,0 +1,93 @@
+XYZFILES = sio2.xyz
+Working on xyz-file sio2.xyz
+Converting sio2.xyz to input
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/sio2/XAS/sio2/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/sio2/XAS/sio2/O25 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+
+====================================================================================================
+PID 23046 |  Starting execution for XAS/atom0 at: Tue Sep  4 16:41:24 PDT 2018 | 16:41:24 | 
+====================================================================================================
+PID 23046 | XAS/atom0 | 16:41:24 | Running directory /global/scratch/yufengl/mbxas/sio2
+XAS/atom0 | 16:41:24 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/sio2/XAS/atom
+Atomic types:        O Si 
+Number of types:     2
+
+Running atomic calculation for element O
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.UPF
+Number of electrons: 6.00000000000
+Number of bands:     7
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by XCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 16:41:24 | ATOM_REF completed
+====================================================================================================
+PID 23046 |  Stopping execution for XAS/atom0 at: Tue Sep  4 16:41:24 PDT 2018 | 16:41:24 | 
+PID 23046 |  Wall time: 0d 0h 0m 0s | 16:41:24 | 
+====================================================================================================
+
+Atom O - E_GS=-31.52882798 Ry    E_CH=-47.30073995 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+sio2 O 25 -1790.69480073 -47.30073995 -1775.51888165 -31.52882798 8.29890206643377 -22.2788 38.6728
+ user input shift to expt,   ESHIFT = -4.2
+ lowest of the low energies         = 3.90908
+ lowest of the high energies        = 34.283
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum 10 wrt highest
+ ELOW = -5
+ EHIGH = 40.37392
+# Empirical input ESHIFT = -4.2
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+sio2 O 25 -4.39041880643377 -.19041880643377
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13936510
+ Job hosts                     = n0054.etna0,n0061.etna0,n0062.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/sio2
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 3
+ Number of processors          = 64
+ Number of tasks per node      = 21
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/sio2/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 3
+ Number of processors per atom = 64
+PID 23197 | 16:41:27 | done reading /global/scratch/yufengl/mbxas/sio2/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 23247 | 16:41:29 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/sio2/XAS/sio2/O25
+Located nodefile /global/scratch/yufengl/mbxas/sio2/XAS/sio2/O25/Node-13936510-1
+
+====================================================================================================
+PID 23247 |  Starting execution for sio2/O25 at: Tue Sep  4 16:41:29 PDT 2018 | 16:41:29 | 
+====================================================================================================
+PID 23247 | sio2/O25 | 16:41:29 | Running directory /global/scratch/yufengl/mbxas/sio2/XAS/sio2/O25
+PID 23247 | 16:41:29 | mbxas
+PID 23247 | sio2/O25 | 16:41:29 | Starting MBXAS...
+PID 23247 | sio2/O25 | 16:41:29 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 23247 | sio2/O25 | 16:43:31 | MBXAS completed
+====================================================================================================
+PID 23247 |  Stopping execution for sio2/O25 at: Tue Sep  4 16:43:31 PDT 2018 | 16:43:31 | 
+PID 23247 |  Wall time: 0d 0h 2m 2s | 16:43:31 | 
+====================================================================================================
+

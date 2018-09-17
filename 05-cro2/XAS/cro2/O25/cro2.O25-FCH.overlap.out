@@ -1,0 +1,444 @@
+
+     Program SHIRLEY v.4.3      starts on 29Aug2018 at  3:32:52 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/wiki/index.php/Citing_Quantum-ESPRESSO
+
+     Parallel version (MPI), running on    64 processors
+     R & G space division:  proc/pool =   64
+
+     Ultrasoft (Vanderbilt) Pseudopotentials
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = **
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/cro2_opt
+    ./cro2.O25-FCH_opt
+ 
+     Message from routine read_file_shirley:
+     file ../GS/cro2_opt.save not guaranteed to be safe for post-processing
+         nkstot =            1
+           lsda =  F
+       noncolin =  F
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1s, nr2s, nr3s values from input
+         nspin =            1
+          npol =            1
+  current_spin =            1
+  gamma_only =  F
+  at =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000  0.989708210812033     
+  bg =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000   1.01039881156439     
+ 
+   Stick Mesh
+   ----------
+   nst =  8349,  nstw =   845, nsts =  3341
+               n.st   n.stw   n.sts    n.g    n.gw   n.gs
+   min         130      13      52    8890     279    2240
+   max         131      14      53    8897     282    2267
+       8349     845    3341  569211   17973  144069
+ 
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          282  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  reading basis 1
+  nbnd =         2525
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  nbnd =         1615
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          282  npol =            1
+  npwx =          279  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          281  npol =            1
+  npwx =          282  npol =            1
+  reading basis 2
+  computing overlap
+  npw =          281  npwx =          281
+ 
+     shirley      :     41.04s CPU   1268.55s WALL (       1 calls)
+     General routines
+     davcio       :      0.00s CPU      0.08s WALL (       2 calls)
+ 
+     Parallel routines

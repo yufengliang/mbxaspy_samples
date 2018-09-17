@@ -1,0 +1,44 @@
+&control
+    calculation='scf',
+    prefix='acetic',
+    pseudo_dir='/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos',
+    outdir='./',
+    wf_collect =.TRUE.,
+    restart_mode='from_scratch',
+    tstress=.true., tprnfor=.true.
+/
+&system
+    ibrav=14 , a=12.8214 , b=13.2775 , c=11.7985
+    nat=8, ntyp=3, tot_charge=0,
+    nbnd=16, occupations='smearing', smearing='fd', degauss=0.0019,
+    ecutwfc =25, ecutrho=200,
+    
+    
+/
+&electrons
+    diagonalization='david'
+    conv_thr=1.0d-8,
+    mixing_beta=0.3,
+    mixing_mode='local-TF',
+    electron_maxstep=200,
+    diago_thr_init=,
+            diago_full_acc=.false.,
+    startingpot='atomic',
+            mixing_fixed_ns=0
+/
+ATOMIC_SPECIES
+C 12.00 C.pbe-van-yufengl.UPF
+H 1.0079 H.pbe-van_bm.UPF
+O 15.999 O.pbe-van_bm.UPF
+ATOMIC_POSITIONS angstrom
+O    0.3034   -1.2890   -0.0002
+O    0.9801    0.8876   -0.0002
+C   -1.3743    0.3517   -0.0002
+C    0.0907    0.0496    0.0005
+H   -1.8394   -0.0566   -0.9009
+H   -1.8413   -0.0611    0.8976
+H   -1.5186    1.4361    0.0026
+H   -0.5077   -1.8414   -0.0002
+K_POINTS automatic
+1 1 1 0 0 0
+

@@ -1,0 +1,113 @@
+XYZFILES = acetic.xyz
+Working on xyz-file acetic.xyz
+Converting acetic.xyz to input
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/acetic/XAS/acetic/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O1 scf nscf basis ham basis_overlap xas
+ /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O2 scf nscf basis ham basis_overlap xas
+ 3 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 3: 1 3
+
+====================================================================================================
+PID 23515 |  Starting execution for XAS/atom0 at: Thu Sep  6 15:40:04 PDT 2018 | 15:40:04 | 
+====================================================================================================
+PID 23515 | XAS/atom0 | 15:40:04 | Running directory /global/scratch/yufengl/mbxas/acetic
+XAS/atom0 | 15:40:04 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/acetic/XAS/atom
+Atomic types:        C H O 
+Number of types:     3
+
+Running atomic calculation for element O
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.UPF
+Number of electrons: 6.00000000000
+Number of bands:     7
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by XCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 15:40:04 | ATOM_REF completed
+====================================================================================================
+PID 23515 |  Stopping execution for XAS/atom0 at: Thu Sep  6 15:40:04 PDT 2018 | 15:40:04 | 
+PID 23515 |  Wall time: 0d 0h 0m 0s | 15:40:04 | 
+====================================================================================================
+
+Atom O - E_GS=-31.52852901 Ry    E_CH=-47.30034345 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+acetic O 1 -106.72440581 -47.30034345 -91.53910192 -31.52852901 -2.22909549625284 -32.7595 20.9182
+acetic O 2 -106.90322899 -47.30034345 -91.53910192 -31.52852901 -1.57569489218502 -30.2130 20.9762
+ user input shift to expt,   ESHIFT = 526.5
+ lowest of the low energies         = 532.047
+ lowest of the high energies        = 554.599
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum 10 wrt highest
+ ELOW = -5
+ EHIGH = 32.552
+# Empirical input ESHIFT = 526.5
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+acetic O 1 536.70857152625284 10.20857152625284
+acetic O 2 533.62228155218502 7.12228155218502
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13950421
+ Job hosts                     = n0014.etna0,n0015.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/acetic
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 2
+ Number of processors          = 32
+ Number of tasks per node      = 16
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/acetic/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 2
+ Number of processors per atom = 32
+PID 23723 | 15:40:08 | done reading /global/scratch/yufengl/mbxas/acetic/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 23772 | 15:40:10 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O1
+Located nodefile /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O1/Node-13950421-1
+
+====================================================================================================
+PID 23772 |  Starting execution for acetic/O1 at: Thu Sep  6 15:40:10 PDT 2018 | 15:40:10 | 
+====================================================================================================
+PID 23772 | acetic/O1 | 15:40:10 | Running directory /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O1
+PID 23772 | 15:40:10 | mbxas
+PID 23772 | acetic/O1 | 15:40:10 | Starting MBXAS...
+PID 23772 | acetic/O1 | 15:40:10 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+PID 23965 | 15:40:11 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O2
+====================================================================================================
+PID 23772 | acetic/O1 | 15:40:49 | MBXAS completed
+====================================================================================================
+PID 23772 |  Stopping execution for acetic/O1 at: Thu Sep  6 15:40:49 PDT 2018 | 15:40:49 | 
+PID 23772 |  Wall time: 0d 0h 0m 39s | 15:40:49 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O2/Node-13950421-1
+
+====================================================================================================
+PID 23965 |  Starting execution for acetic/O2 at: Thu Sep  6 15:40:50 PDT 2018 | 15:40:50 | 
+====================================================================================================
+PID 23965 | acetic/O2 | 15:40:50 | Running directory /global/scratch/yufengl/mbxas/acetic/XAS/acetic/O2
+PID 23965 | 15:40:50 | mbxas
+PID 23965 | acetic/O2 | 15:40:50 | Starting MBXAS...
+PID 23965 | acetic/O2 | 15:40:50 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 23965 | acetic/O2 | 15:41:23 | MBXAS completed
+====================================================================================================
+PID 23965 |  Stopping execution for acetic/O2 at: Thu Sep  6 15:41:23 PDT 2018 | 15:41:23 | 
+PID 23965 |  Wall time: 0d 0h 0m 33s | 15:41:23 | 
+====================================================================================================
+

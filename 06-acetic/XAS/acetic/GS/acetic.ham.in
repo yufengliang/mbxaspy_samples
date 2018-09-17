@@ -1,0 +1,11 @@
+&input
+    prefix='acetic_opt',
+    outdir='./',
+    updatepp=.false.,
+    ncpp=.false.,
+    pseudo_dir='/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos',
+    
+/
+K_POINTS
+    2 2 2 0 0 0
+    

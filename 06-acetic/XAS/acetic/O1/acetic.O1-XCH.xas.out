@@ -1,0 +1,171 @@
+
+     Program SHIRLEY v.4.3      starts on  4Sep2018 at 18:34:25 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/wiki/index.php/Citing_Quantum-ESPRESSO
+
+     Parallel version (MPI), running on    32 processors
+     R & G space division:  proc/pool =   32
+  nproc =           32
+  npool =           32
+  nproc_per_pool =            1
+ 
+ 
+  pool distribution of processes
+ 
+               mpime          mypoolid            mypool    nproc_per_pool
+                   0                 0                 0                 1
+ 
+  reading hamiltonian ...
+  nspin =            1
+  basis set size =          821
+  non-local proj =           36
+     nl ham proj =           36
+  non-local projs: attempt to allocate   5.645751953125000E-004  MBytes
+     spline orders =            3           3           3
+  number of coeffs =            3           3           3
+  non-local splines: attempt to allocate   1.373291015625000E-004  MBytes
+ alloc_knots: knots allocated
+  bcast_hamdim
+  bcast_hamdim: transf matrices
+  bcast_hamdim: dims
+  bcast_hamdim: spline dims
+  bcast_hamdim: knots
+  scalapack blocksize           32
+  nprow =            1  npcol =            1
+  memory distribution of matrices n x n
+               mpime            mypool          mypoolid             myrow             mycol                 n                nr                nc
+                   0                 0                 0                 0                 0               821               821               821
+ 
+  local ham: attempt to allocate    51.4252471923828       MBytes
+  read_hamloc 
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  done read_hamloc 
+ 
+  memory distribution of projectors (by atom)
+               mpime            mypool          mypoolid      natom_global             natom      nproj_global             nproj   nproj_nl_global          nproj_nl
+                   0                 0                 0                 8                 8                36                36                36                36
+ 
+  non-local splines: attempt to allocate    12.1766967773438       MBytes
+ alloc_projs: projector coefficients allocated
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+ 
+  memory distribution of projectors (by nbasis)
+               mpime            mypool          mypoolid                 n                nr                nc
+                   0                 0                 0               821               821               821
+ 
+  nspin =            1
+  lda_plus_u =  F
+  natomproj =            0
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           1
+           1
+           1
+           1
+           1
+           1
+           1
+           1
+  Not a norm-conserving pseudpotential
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           1
+           1
+           1
+           1
+           1
+           1
+           1
+           1
+ done reading k-points
+ done reading corerepair
+  no nelec provided - using hamq value instead
+  nelec =    25.0000000000000     
+           4           4
+           8           8
+           1
+           1
+           4
+           4
+           8
+           8           1
+ 
+  System details: 
+        nelec =    25.0000000000000     
+         alat =    24.2289346401800     
+  cell volume =    13554.2397489976     
+        nspin =            1
+ 
+  band_subset =            1         821
+  shirley_xas
+ 
+  Fermi energy =   0.000000000000000E+000
+ 
+  memory distribution of projectors (by nbasis)
+               mpime            mypool          mypoolid                 n                nr                nc
+                   0                 0                 0               821               821               821
+ 
+  corerep % ncore =            1
+ k-point      0.00000     0.00000     0.00000 weight      0.01600     1 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.20000     0.20000     0.40000 weight      0.01600    33 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.40000     0.40000     0.80000 weight      0.01600    65 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.60000     0.80000     0.20000 weight      0.01600    97 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+  waiting for other nodes
+  end shirley_xas

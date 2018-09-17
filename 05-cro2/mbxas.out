@@ -1,0 +1,94 @@
+XYZFILES = cro2.xyz
+Working on xyz-file cro2.xyz
+Converting cro2.xyz to input
+FCH implies tot_charge = 1.0
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/cro2/XAS/cro2/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+
+====================================================================================================
+PID 4675 |  Starting execution for XAS/atom0 at: Tue Sep 11 12:07:14 PDT 2018 | 12:07:14 | 
+====================================================================================================
+PID 4675 | XAS/atom0 | 12:07:14 | Running directory /global/scratch/yufengl/mbxas/cro2
+XAS/atom0 | 12:07:14 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/cro2/XAS/atom
+Atomic types:        Cr O 
+Number of types:     2
+
+Running atomic calculation for element O
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.UPF
+Number of electrons: 6.00000000000
+Number of bands:     7
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by FCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 12:07:15 | ATOM_REF completed
+====================================================================================================
+PID 4675 |  Stopping execution for XAS/atom0 at: Tue Sep 11 12:07:15 PDT 2018 | 12:07:15 | 
+PID 4675 |  Wall time: 0d 0h 0m 1s | 12:07:15 | 
+====================================================================================================
+
+Atom O - E_GS=-31.54399516 Ry    E_CH=-47.32124502 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+cro2 O 25 -5723.99123228 -47.32124502 -5707.55009036 -31.54399516 9.53419739179930 -62.8431 67.0788
+ user input shift to expt,   ESHIFT = 535.7
+ lowest of the low energies         = 526.667
+ lowest of the high energies        = 584.212
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum -35 wrt highest
+ ELOW = -5
+ EHIGH = 22.545
+# Empirical input ESHIFT = 535.7
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+cro2 O 25 517.13355113820070 -18.56644886179930
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13973733
+ Job hosts                     = n0085.etna0,n0098.etna0,n0099.etna0,n0107.etna0,n0110.etna0,n0111.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/cro2
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 6
+ Number of processors          = 125
+ Number of tasks per node      = 20
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/cro2/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 6
+ Number of processors per atom = 125
+PID 4838 | 12:07:17 | done reading /global/scratch/yufengl/mbxas/cro2/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 4892 | 12:07:19 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25
+Located nodefile /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25/Node-13973733-1
+
+====================================================================================================
+PID 4892 |  Starting execution for cro2/O25 at: Tue Sep 11 12:07:19 PDT 2018 | 12:07:19 | 
+====================================================================================================
+PID 4892 | cro2/O25 | 12:07:19 | Running directory /global/scratch/yufengl/mbxas/cro2/XAS/cro2/O25
+PID 4892 | 12:07:19 | mbxas
+PID 4892 | cro2/O25 | 12:07:19 | Starting MBXAS...
+PID 4892 | cro2/O25 | 12:07:20 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 4892 | cro2/O25 | 12:41:45 | MBXAS completed
+====================================================================================================
+PID 4892 |  Stopping execution for cro2/O25 at: Tue Sep 11 12:41:45 PDT 2018 | 12:41:45 | 
+PID 4892 |  Wall time: 0d 0h 34m 26s | 12:41:45 | 
+====================================================================================================
+

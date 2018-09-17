@@ -1,0 +1,6 @@
+&input
+    prefix1 = 'benzene_opt'
+    outdir1 = '../GS'
+    prefix2 = 'benzene.C01-XCH_opt'
+    outdir2 = './'
+/

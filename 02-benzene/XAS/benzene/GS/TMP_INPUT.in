@@ -1,0 +1,91 @@
+TMP_PREFIX=""
+TMP_PSEUDO_DIR="/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos"
+TMP_TMP_DIR="./"
+TMP_PARA_PREFIX=""
+TMP_PARA_POSTFIX=""
+TMP_PARA_PW_POSTFIX=""
+TMP_PARA_PW_POSTFIX_SCF=""
+TMP_PARA_PW_POSTFIX_NSCF=""
+TMP_BIN_LIST=""	
+TMP_PSEUDO_LIST=""
+TMP_PSEUDO_POT_ES_POST_FIX="pbe-van-dgp-1s1.UPF"
+TMP_DT=
+TMP_NSTEP=
+TMP_CHAPPROX="XCH"
+TMP_N=""
+TMP_XCH_STEP=
+TMP_A=14.31332
+TMP_B=14.98058
+TMP_C=10.00000
+TMP_COSAB=
+TMP_COSAC=
+TMP_COSBC=
+TMP_CELLDM1=
+TMP_CELLDM2=
+TMP_CELLDM3=
+TMP_CELLDM4=
+TMP_CELLDM5=
+TMP_CELLDM6=
+TMP_NAT=12
+TMP_NTYP=2
+TMP_IBRAV=14
+TMP_ECUT_WFC=25
+TMP_ECUT_RHO=200
+TMP_NELEC=30.00000000000
+TMP_SMEARING='fd'
+TMP_DEGAUSS='0.0019'
+TMP_DEGAUSS_STEP=''
+TMP_DEGAUSS_FAC=''
+TMP_DIAG='david'
+TMP_DIAG_NSCF='david'
+TMP_ELEC_CONV_THR='1.0d-8'
+TMP_ELEC_MIXING_BETA=0.3
+TMP_MIXING_MODE='local-TF'
+TMP_electron_maxstep=200
+TMP_diago_thr_init=
+TMP_diago_full_acc=
+TMP_NBND=19
+TMP_NBND_FAC=30
+TMP_ION_TEMPERATURE=''
+TMP_POT_EXTRAPOLATION=''
+TMP_WFC_EXTRAPOLATION=''
+TMP_TEMPW=''
+TMP_DELTA_T=
+TMP_NRAISE=
+TMP_TOLP=''
+TMP_RM='from_scratch'
+TMP_K_POINTS="K_POINTS automatic
+1 1 1 0 0 0"
+TMP_K_POINTS_NSCF=""
+TMP_BASIS_TRACE_TOL=""
+TMP_DELTA=0
+TMP_XAS_ARG="5"
+TMP_ATOMIC_SPECIES="ATOMIC_SPECIES
+C 12.00 C.pbe-van-yufengl.UPF
+H 1.0079 H.pbe-van_bm.UPF"
+TMP_ATOMIC_POSITIONS="ATOMIC_POSITIONS angstrom
+  C        0.00000        1.40272        0.00000
+  H        0.00000        2.49029        0.00000
+  C       -1.21479        0.70136        0.00000
+  H       -2.15666        1.24515        0.00000
+  C       -1.21479       -0.70136        0.00000
+  H       -2.15666       -1.24515        0.00000
+  C        0.00000       -1.40272        0.00000
+  H        0.00000       -2.49029        0.00000
+  C        1.21479       -0.70136        0.00000
+  H        2.15666       -1.24515        0.00000
+  C        1.21479        0.70136        0.00000
+  H        2.15666        1.24515        0.00000"
+TMP_K_POINTS="K_POINTS automatic
+1 1 1 0 0 0"
+TMP_CELL_PARAMETERS=""
+TMP_SPIN=""
+TMP_LDAU=""
+TMP_FORCESTRESS="tstress=.true., tprnfor=.true."
+TMP_startingpot=
+TMP_mixing_fixed_ns=
+TMP_BIN_DIR=/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/Shirley/bin
+TMP_MOLNAME=benzene
+TMP_wf_collect=.TRUE.
+TMP_disk_io=high
+TMP_tot_charge=0

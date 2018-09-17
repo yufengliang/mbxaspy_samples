@@ -1,0 +1,14 @@
+&input
+  prefix='acetic_opt',
+  outdir='./',
+  outfile='acetic.xas.5',
+  readcorerep=.true., eigvec_output=.true., proj_output=.true.
+/
+K_POINTS
+  automatic
+  5 5 5 0 0 0
+COREREP
+  3 8
+  2
+  3  1  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'
+  3  2  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'

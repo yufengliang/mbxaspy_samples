@@ -1,0 +1,178 @@
+XYZFILES = v2o5.xyz
+Working on xyz-file v2o5.xyz
+Converting v2o5.xyz to input
+FCH implies tot_charge = 1.0
+FCH implies tot_charge = 1.0
+FCH implies tot_charge = 1.0
+FCH implies tot_charge = 1.0
+FCH implies tot_charge = 1.0
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O25 scf nscf basis ham basis_overlap xas
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O31 scf nscf basis ham basis_overlap xas
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O49 scf nscf basis ham basis_overlap xas
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O55 scf nscf basis ham basis_overlap xas
+ /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O67 scf nscf basis ham basis_overlap xas
+ 6 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 6: 1 2 3 6
+
+====================================================================================================
+PID 20547 |  Starting execution for XAS/atom0 at: Tue Sep 11 12:32:29 PDT 2018 | 12:32:30 | 
+====================================================================================================
+PID 20547 | XAS/atom0 | 12:32:30 | Running directory /global/scratch/yufengl/mbxas/v2o5_once
+XAS/atom0 | 12:32:30 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/v2o5_once/XAS/atom
+Atomic types:        O V 
+Number of types:     2
+
+Running atomic calculation for element O
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.UPF
+Number of electrons: 6.00000000000
+Number of bands:     7
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by FCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 12:32:30 | ATOM_REF completed
+====================================================================================================
+PID 20547 |  Stopping execution for XAS/atom0 at: Tue Sep 11 12:32:30 PDT 2018 | 12:32:30 | 
+PID 20547 |  Wall time: 0d 0h 0m 1s | 12:32:30 | 
+====================================================================================================
+
+Atom O - E_GS=-31.54400077 Ry    E_CH=-47.32125616 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+v2o5 O 25 -5390.21710152 -47.32125616 -5374.19782920 -31.54400077 6.13306468302825 -60.5721 34.4857
+v2o5 O 31 -5390.21710133 -47.32125616 -5374.19782920 -31.54400077 6.13308743891095 -60.5720 34.4857
+v2o5 O 49 -5390.20714860 -47.32125616 -5374.19782920 -31.54400077 5.58771684439984 -61.7462 34.4213
+v2o5 O 55 -5390.20715503 -47.32125616 -5374.19782920 -31.54400077 5.58802128287244 -61.7457 34.4213
+v2o5 O 67 -5390.22525778 -47.32125616 -5374.19782920 -31.54400077 5.90963238552784 -60.8715 34.4586
+ user input shift to expt,   ESHIFT = 535.7
+ lowest of the low energies         = 532.296
+ lowest of the high energies        = 560.76
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum -8 wrt highest
+ ELOW = -5
+ EHIGH = 20.464
+# Empirical input ESHIFT = 535.7
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+v2o5 O 25 526.27429498697175 -9.42570501302825
+v2o5 O 31 526.27427482108905 -9.42572517891095
+v2o5 O 49 526.95505230560016 -8.74494769439984
+v2o5 O 55 526.95466038712756 -8.74533961287244
+v2o5 O 67 526.38676137447216 -9.31323862552784
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13973752
+ Job hosts                     = n0010.etna0,n0011.etna0,n0022.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/v2o5_once
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 3
+ Number of processors          = 64
+ Number of tasks per node      = 21
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/v2o5_once/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 3
+ Number of processors per atom = 64
+PID 20898 | 12:32:37 | done reading /global/scratch/yufengl/mbxas/v2o5_once/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 20948 | 12:32:39 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O25
+Located nodefile /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O25/Node-13973752-1
+
+====================================================================================================
+PID 20948 |  Starting execution for v2o5/O25 at: Tue Sep 11 12:32:39 PDT 2018 | 12:32:39 | 
+====================================================================================================
+PID 20948 | v2o5/O25 | 12:32:39 | Running directory /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O25
+PID 20948 | 12:32:39 | mbxas
+PID 20948 | v2o5/O25 | 12:32:39 | Starting MBXAS...
+PID 20948 | v2o5/O25 | 12:32:39 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+PID 21054 | 12:32:40 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O31
+PID 21206 | 12:32:41 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O49
+PID 21232 | 12:32:42 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O55
+PID 21263 | 12:32:43 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O67
+====================================================================================================
+PID 20948 | v2o5/O25 | 12:37:18 | MBXAS completed
+====================================================================================================
+PID 20948 |  Stopping execution for v2o5/O25 at: Tue Sep 11 12:37:18 PDT 2018 | 12:37:18 | 
+PID 20948 |  Wall time: 0d 0h 4m 39s | 12:37:18 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O55/Node-13973752-1
+
+====================================================================================================
+PID 21232 |  Starting execution for v2o5/O55 at: Tue Sep 11 12:37:24 PDT 2018 | 12:37:24 | 
+====================================================================================================
+PID 21232 | v2o5/O55 | 12:37:24 | Running directory /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O55
+PID 21232 | 12:37:24 | mbxas
+PID 21232 | v2o5/O55 | 12:37:24 | Starting MBXAS...
+PID 21232 | v2o5/O55 | 12:37:24 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 21232 | v2o5/O55 | 12:41:58 | MBXAS completed
+====================================================================================================
+PID 21232 |  Stopping execution for v2o5/O55 at: Tue Sep 11 12:41:58 PDT 2018 | 12:41:58 | 
+PID 21232 |  Wall time: 0d 0h 4m 34s | 12:41:58 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O49/Node-13973752-1
+
+====================================================================================================
+PID 21206 |  Starting execution for v2o5/O49 at: Tue Sep 11 12:42:00 PDT 2018 | 12:42:00 | 
+====================================================================================================
+PID 21206 | v2o5/O49 | 12:42:00 | Running directory /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O49
+PID 21206 | 12:42:00 | mbxas
+PID 21206 | v2o5/O49 | 12:42:00 | Starting MBXAS...
+PID 21206 | v2o5/O49 | 12:42:01 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 21206 | v2o5/O49 | 12:46:44 | MBXAS completed
+====================================================================================================
+PID 21206 |  Stopping execution for v2o5/O49 at: Tue Sep 11 12:46:44 PDT 2018 | 12:46:44 | 
+PID 21206 |  Wall time: 0d 0h 4m 44s | 12:46:44 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O67/Node-13973752-1
+
+====================================================================================================
+PID 21263 |  Starting execution for v2o5/O67 at: Tue Sep 11 12:46:47 PDT 2018 | 12:46:47 | 
+====================================================================================================
+PID 21263 | v2o5/O67 | 12:46:47 | Running directory /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O67
+PID 21263 | 12:46:47 | mbxas
+PID 21263 | v2o5/O67 | 12:46:47 | Starting MBXAS...
+PID 21263 | v2o5/O67 | 12:46:47 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 21263 | v2o5/O67 | 12:51:23 | MBXAS completed
+====================================================================================================
+PID 21263 |  Stopping execution for v2o5/O67 at: Tue Sep 11 12:51:23 PDT 2018 | 12:51:23 | 
+PID 21263 |  Wall time: 0d 0h 4m 36s | 12:51:23 | 
+====================================================================================================
+
+Located nodefile /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O31/Node-13973752-1
+
+====================================================================================================
+PID 21054 |  Starting execution for v2o5/O31 at: Tue Sep 11 12:51:26 PDT 2018 | 12:51:26 | 
+====================================================================================================
+PID 21054 | v2o5/O31 | 12:51:26 | Running directory /global/scratch/yufengl/mbxas/v2o5_once/XAS/v2o5/O31
+PID 21054 | 12:51:26 | mbxas
+PID 21054 | v2o5/O31 | 12:51:26 | Starting MBXAS...
+PID 21054 | v2o5/O31 | 12:51:26 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 21054 | v2o5/O31 | 12:56:00 | MBXAS completed
+====================================================================================================
+PID 21054 |  Stopping execution for v2o5/O31 at: Tue Sep 11 12:56:00 PDT 2018 | 12:56:00 | 
+PID 21054 |  Wall time: 0d 0h 4m 34s | 12:56:00 | 
+====================================================================================================
+

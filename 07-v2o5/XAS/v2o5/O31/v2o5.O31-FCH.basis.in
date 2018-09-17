@@ -1,0 +1,5 @@
+&input
+  prefix='v2o5.O31-FCH',
+  outdir='./',
+  trace_tol=1.d-8,
+/

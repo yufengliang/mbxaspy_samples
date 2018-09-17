@@ -1,0 +1,252 @@
+
+     Program SHIRLEY v.4.3      starts on  4Sep2018 at 18:26:17 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/wiki/index.php/Citing_Quantum-ESPRESSO
+
+     Parallel version (MPI), running on    32 processors
+     R & G space division:  proc/pool =   32
+
+     Ultrasoft (Vanderbilt) Pseudopotentials
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = **
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/acetic_opt
+    ./acetic.O2-XCH_opt
+ 
+     Message from routine read_file_shirley:
+     file ../GS/acetic_opt.save not guaranteed to be safe for post-processing
+         nkstot =            1
+           lsda =  F
+       noncolin =  F
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1s, nr2s, nr3s values from input
+         nspin =            1
+          npol =            1
+  current_spin =            1
+  gamma_only =  F
+  at =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000   1.03557333832499       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000  0.920219320822999     
+  bg =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000  0.965648653737526       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000   1.08669746154172     
+ 
+   Stick Mesh
+   ----------
+   nst = 11493,  nstw =  1437, nsts =  5751
+               n.st   n.stw   n.sts    n.g    n.gw   n.gs
+   min         359      44     179   26209    1154    9250
+   max         360      45     180   26214    1159    9276
+      11493    1437    5751  838725   37027  296515
+ 
+  npwx =         1156  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  reading basis 1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1156  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1155  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1154  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1155  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  nbnd =          819
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1156  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1159  npol =            1
+  nbnd =          818
+  npwx =         1156  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1154  npol =            1
+  npwx =         1155  npol =            1
+  npwx =         1155  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  npwx =         1157  npol =            1
+  reading basis 2
+  computing overlap
+  npw =         1156  npwx =         1156
+ 
+     shirley      :      6.25s CPU    136.36s WALL (       1 calls)
+     General routines
+     davcio       :      0.00s CPU      0.03s WALL (       2 calls)
+ 
+     Parallel routines

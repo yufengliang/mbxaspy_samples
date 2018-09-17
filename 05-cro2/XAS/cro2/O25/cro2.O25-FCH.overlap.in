@@ -1,0 +1,6 @@
+&input
+    prefix1 = 'cro2_opt'
+    outdir1 = '../GS'
+    prefix2 = 'cro2.O25-FCH_opt'
+    outdir2 = './'
+/

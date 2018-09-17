@@ -1,0 +1,28 @@
+# initial(ground)-state
+path_i = '../GS' # path
+mol_name_i = 'v2o5' # prefix
+nbnd_i = 806
+# final-state
+path_f = './' # path
+mol_name_f = 'v2o5.O67-FCH' #prefix
+nbnd_f = 806
+# number of k points along one direction
+xas_arg = 5
+gamma_only = False
+#gamma_only = True # Using gamma point only - I'm not sure we would ever really need this
+nproc_per_pool = 4 # number of procs used to process one (spin, k)
+final_1p = True # Need one-body final-state spectrum
+#xi_analysis = True # print out an analysis of the xi matrix
+#zeta_analysis = True # print out an analysis of the zeta matrix
+#do_paw_correction = True # do PAW corrections or not
+spec0_only = False # only want one-body spectra
+# spectral
+maxfn = 1 # calculate up to f^(maxfn) order - usually 1 or 2
+I_thr = 1e-4 # throw away transitions that are below I_thr (fractional, 1e-3) of the strongest one.
+# These will be modified eventually
+ELOW = -5
+EHIGH = 20.464
+SIGMA = 0.4
+NENER = 1000
+# To be calculated from energy report
+ESHIFT_FINAL = 526.38676137447216 # *** Please note that this is the final ESHIFT

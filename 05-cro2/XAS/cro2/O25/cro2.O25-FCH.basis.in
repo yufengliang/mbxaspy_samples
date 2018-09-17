@@ -1,0 +1,5 @@
+&input
+  prefix='cro2.O25-FCH',
+  outdir='./',
+  trace_tol=1.d-8,
+/

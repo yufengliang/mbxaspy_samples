@@ -1,0 +1,17 @@
+&input
+  prefix='v2o5_opt',
+  outdir='./',
+  outfile='v2o5.xas.5',
+  readcorerep=.true., eigvec_output=.true., proj_output=.true.
+/
+K_POINTS
+  automatic
+  5 5 5 0 0 0
+COREREP
+  2 84
+  5
+  1  25  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'
+  1  31  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'
+  1  49  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'
+  1  55  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'
+  1  67  '/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.pos'

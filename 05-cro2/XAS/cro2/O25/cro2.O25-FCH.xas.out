@@ -1,0 +1,1029 @@
+
+     Program SHIRLEY v.4.3      starts on 29Aug2018 at 12:14:41 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/wiki/index.php/Citing_Quantum-ESPRESSO
+
+     Parallel version (MPI), running on    64 processors
+     R & G space division:  proc/pool =   64
+  nproc =           64
+  npool =           64
+  nproc_per_pool =            1
+ 
+ 
+  pool distribution of processes
+ 
+               mpime          mypoolid            mypool    nproc_per_pool
+                   0                 0                 0                 1
+ 
+  reading hamiltonian ...
+  nspin =            2
+  basis set size =         1615
+  non-local proj =          816
+     nl ham proj =          816
+  non-local projs: attempt to allocate   8.560180664062500E-003  MBytes
+     spline orders =            3           3           3
+  number of coeffs =            3           3           3
+  non-local splines: attempt to allocate   1.373291015625000E-004  MBytes
+ alloc_knots: knots allocated
+  natomproj =          120
+  Hubbard parameters: l         U     alpha
+  atom type    1      2  3.500000  0.000000
+  atom type    2     -1  0.000000  0.000000
+  atom type    3     -1  0.000000  0.000000
+  atom            1  index:            1           2           3           4
+           5
+  atom            2  index:            6           7           8           9
+          10
+  atom            3  index:           11          12          13          14
+          15
+  atom            4  index:           16          17          18          19
+          20
+  atom            5  index:           21          22          23          24
+          25
+  atom            6  index:           26          27          28          29
+          30
+  atom            7  index:           31          32          33          34
+          35
+  atom            8  index:           36          37          38          39
+          40
+  atom            9  index:           41          42          43          44
+          45
+  atom           10  index:           46          47          48          49
+          50
+  atom           11  index:           51          52          53          54
+          55
+  atom           12  index:           56          57          58          59
+          60
+  atom           13  index:           61          62          63          64
+          65
+  atom           14  index:           66          67          68          69
+          70
+  atom           15  index:           71          72          73          74
+          75
+  atom           16  index:           76          77          78          79
+          80
+  atom           17  index:           81          82          83          84
+          85
+  atom           18  index:           86          87          88          89
+          90
+  atom           19  index:           91          92          93          94
+          95
+  atom           20  index:           96          97          98          99
+         100
+  atom           21  index:          101         102         103         104
+         105
+  atom           22  index:          106         107         108         109
+         110
+  atom           23  index:          111         112         113         114
+         115
+  atom           24  index:          116         117         118         119
+         120
+  atom           25  index:            0           0           0           0
+           0
+  atom           26  index:            0           0           0           0
+           0
+  atom           27  index:            0           0           0           0
+           0
+  atom           28  index:            0           0           0           0
+           0
+  atom           29  index:            0           0           0           0
+           0
+  atom           30  index:            0           0           0           0
+           0
+  atom           31  index:            0           0           0           0
+           0
+  atom           32  index:            0           0           0           0
+           0
+  atom           33  index:            0           0           0           0
+           0
+  atom           34  index:            0           0           0           0
+           0
+  atom           35  index:            0           0           0           0
+           0
+  atom           36  index:            0           0           0           0
+           0
+  atom           37  index:            0           0           0           0
+           0
+  atom           38  index:            0           0           0           0
+           0
+  atom           39  index:            0           0           0           0
+           0
+  atom           40  index:            0           0           0           0
+           0
+  atom           41  index:            0           0           0           0
+           0
+  atom           42  index:            0           0           0           0
+           0
+  atom           43  index:            0           0           0           0
+           0
+  atom           44  index:            0           0           0           0
+           0
+  atom           45  index:            0           0           0           0
+           0
+  atom           46  index:            0           0           0           0
+           0
+  atom           47  index:            0           0           0           0
+           0
+  atom           48  index:            0           0           0           0
+           0
+  atom           49  index:            0           0           0           0
+           0
+  atom           50  index:            0           0           0           0
+           0
+  atom           51  index:            0           0           0           0
+           0
+  atom           52  index:            0           0           0           0
+           0
+  atom           53  index:            0           0           0           0
+           0
+  atom           54  index:            0           0           0           0
+           0
+  atom           55  index:            0           0           0           0
+           0
+  atom           56  index:            0           0           0           0
+           0
+  atom           57  index:            0           0           0           0
+           0
+  atom           58  index:            0           0           0           0
+           0
+  atom           59  index:            0           0           0           0
+           0
+  atom           60  index:            0           0           0           0
+           0
+  atom           61  index:            0           0           0           0
+           0
+  atom           62  index:            0           0           0           0
+           0
+  atom           63  index:            0           0           0           0
+           0
+  atom           64  index:            0           0           0           0
+           0
+  atom           65  index:            0           0           0           0
+           0
+  atom           66  index:            0           0           0           0
+           0
+  atom           67  index:            0           0           0           0
+           0
+  atom           68  index:            0           0           0           0
+           0
+  atom           69  index:            0           0           0           0
+           0
+  atom           70  index:            0           0           0           0
+           0
+  atom           71  index:            0           0           0           0
+           0
+  atom           72  index:            0           0           0           0
+           0
+ 
+  bcast_hamdim
+  bcast_hamdim: transf matrices
+  bcast_hamdim: dims
+  bcast_hamdim: spline dims
+  bcast_hamdim: knots
+  bcast_hamdim: LDA+U
+  scalapack blocksize           32
+  nprow =            1  npcol =            1
+  memory distribution of matrices n x n
+               mpime            mypool          mypoolid             myrow             mycol                 n                nr                nc
+                   0                 0                 0                 0                 0              1615              1615              1615
+ 
+  local ham: attempt to allocate    198.991775512695       MBytes
+  read_hamloc 
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamloc 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  done read_hamloc 
+ 
+  memory distribution of projectors (by atom)
+               mpime            mypool          mypoolid      natom_global             natom      nproj_global             nproj   nproj_nl_global          nproj_nl
+                   0                 0                 0                72                72               816               816               816               816
+ 
+  non-local splines: attempt to allocate    542.933349609375       MBytes
+ alloc_projs: projector coefficients allocated
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  non-local splines: attempt to allocate    79.8431396484375       MBytes
+ alloc_projs_ldaU: ldaU projector coefficients allocated
+  lda+U natomproj =          120        1615     5232600     5232600
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+  read_hamprj 
+  reading on pool            0           0
+  broadcast across slice            0           0
+  distributing for mypoolid =            0
+ 
+  memory distribution of projectors (by nbasis)
+               mpime            mypool          mypoolid                 n                nr                nc
+                   0                 0                 0              1615              1615              1615
+ 
+  nspin =            2
+  lda_plus_u =  T
+  natomproj =          120
+          72
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+          72
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+  Not a norm-conserving pseudpotential
+          72
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+          18
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+           8
+  LDA+U Hamiltonian
+          72
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+          72
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           5
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+ done reading k-points
+ done reading corerepair
+  no nelec provided - using hamq value instead
+  nelec =    624.000000000000     
+           3           3
+          72          72
+           1
+          25
+           3
+           3
+           8
+           8           1
+ 
+  System details: 
+        nelec =    624.000000000000     
+         alat =    16.7089584669749     
+  cell volume =    4616.95149343260     
+        nspin =            2
+ 
+  band_subset =            1        1615
+  shirley_xas
+ 
+  Fermi energy =   0.000000000000000E+000
+ 
+  memory distribution of projectors (by nbasis)
+               mpime            mypool          mypoolid                 n                nr                nc
+                   0                 0                 0              1615              1615              1615
+ 
+  corerep % ncore =            1
+ k-point      0.00000     0.00000     0.00000 weight      0.00800     1 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.40000     0.40000     0.80000 weight      0.00800    65 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.00000     0.00000     0.00000 weight      0.00800     1 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+ k-point      0.40000     0.40000     0.80000 weight      0.00800    65 of    125 on node   0
+  building Hamiltonian
+  done with nonlocal 
+  done building Hamiltonian
+  waiting for other nodes
+  end shirley_xas

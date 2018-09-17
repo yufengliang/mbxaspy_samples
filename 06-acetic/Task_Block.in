@@ -1,0 +1,3 @@
+/global/scratch/yufengl/mbxas/acetic/XAS/acetic/GS scf nscf basis ham xmat
+/global/scratch/yufengl/mbxas/acetic/XAS/acetic/O1 scf nscf basis ham basis_overlap xas
+/global/scratch/yufengl/mbxas/acetic/XAS/acetic/O2 scf nscf basis ham basis_overlap xas

@@ -1,0 +1,94 @@
+XYZFILES = tio2.xyz
+Working on xyz-file tio2.xyz
+Converting tio2.xyz to input
+FCH implies tot_charge = 1.0
+ List CALC_LIST
+ /global/scratch/yufengl/mbxas/tio2_s/XAS/tio2/GS scf nscf basis ham xmat
+ /global/scratch/yufengl/mbxas/tio2_s/XAS/tio2/O25 scf nscf basis ham basis_overlap xas
+ 2 jobs to be completed and listed in Task_Block.in
+ NJOB could be set efficiently to these factors of 2: 1 2
+
+====================================================================================================
+PID 26594 |  Starting execution for XAS/atom0 at: Mon Sep 10 22:05:30 PDT 2018 | 22:05:30 | 
+====================================================================================================
+PID 26594 | XAS/atom0 | 22:05:30 | Running directory /global/scratch/yufengl/mbxas/tio2_s
+XAS/atom0 | 22:05:30 | Starting ATOM_REF...
+
+====================================================================================================
+Running atomic calculations
+====================================================================================================
+Running directory:   /global/scratch/yufengl/mbxas/tio2_s/XAS/atom
+Atomic types:        O Ti 
+Number of types:     2
+
+Running atomic calculation for element O
+----------------------------------------------------------------------------------------------------
+Pseudopotential:     /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos/O.pbe-van_bm.UPF
+Number of electrons: 6.00000000000
+Number of bands:     7
+Spin:                
+LDAU:                
+
+Single atom calculation in ground state
+----------------------------------------------------------------------------------------------------
+Atomic calculation in the ground state appears to be converged already
+
+Single atom calculation with core-hole approximated by FCH
+----------------------------------------------------------------------------------------------------
+Atomic calculation with the core-hole appears to be converged already
+XAS/atom0 | 22:05:30 | ATOM_REF completed
+====================================================================================================
+PID 26594 |  Stopping execution for XAS/atom0 at: Mon Sep 10 22:05:30 PDT 2018 | 22:05:30 | 
+PID 26594 |  Wall time: 0d 0h 0m 0s | 22:05:30 | 
+====================================================================================================
+
+Atom O - E_GS=-31.54400951 Ry    E_CH=-47.32124874 Ry
+# XYZ ELEMENT INDEX E_CH E_CH_ATOM E_GS E_GS_ATOM E_CBM EIGMIN EIGMAX
+tio2 O 25 -4359.65846635 -47.32124874 -4343.29889039 -31.54400951 10.8285717720756 -48.2108 58.8791
+ user input shift to expt,   ESHIFT = 535.7
+ lowest of the low energies         = 527.777
+ lowest of the high energies        = 575.827
+ above here we are at the mercy of the Shirley basis
+ user request to begin spectrum -5 wrt lowest
+ user request to stop spectrum -26 wrt highest
+ ELOW = -5
+ EHIGH = 22.050
+# Empirical input ESHIFT = 535.7
+# XYZ ELEMENT INDEX FINAL_SHIFT SHIFT
+tio2 O 25 516.9487370179244 -18.7512629820756
+====================================================================================================
+ Parallel processing environment parameters
+====================================================================================================
+ Job ID                        = 13972579
+ Job hosts                     = n0020.etna0,n0021.etna0,n0022.etna0
+ Job submit directory          = /global/scratch/yufengl/mbxas/tio2_s
+----------------------------------------------------------------------------------------------------
+ Number of nodes               = 3
+ Number of processors          = 64
+ Number of tasks per node      = 21
+====================================================================================================
+
+ chop_procs : dividing processes equally using files in directory /global/scratch/yufengl/mbxas/tio2_s/Nodes
+ Number of simultaneous atoms  = 1
+----------------------------------------------------------------------------------------------------
+ Number of nodes per atom      = 3
+ Number of processors per atom = 64
+PID 26748 | 22:05:33 | done reading /global/scratch/yufengl/mbxas/tio2_s/Task_Block.in
+chop_run: no tasks to be performed in directory 
+PID 26798 | 22:05:35 | chop_run - follow this child process until completion - /global/scratch/yufengl/mbxas/tio2_s/XAS/tio2/O25
+Located nodefile /global/scratch/yufengl/mbxas/tio2_s/XAS/tio2/O25/Node-13972579-1
+
+====================================================================================================
+PID 26798 |  Starting execution for tio2/O25 at: Mon Sep 10 22:05:35 PDT 2018 | 22:05:35 | 
+====================================================================================================
+PID 26798 | tio2/O25 | 22:05:35 | Running directory /global/scratch/yufengl/mbxas/tio2_s/XAS/tio2/O25
+PID 26798 | 22:05:35 | mbxas
+PID 26798 | tio2/O25 | 22:05:35 | Starting MBXAS...
+PID 26798 | tio2/O25 | 22:05:35 | Running mbxas as: /global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/mbxaspy/main.py
+====================================================================================================
+PID 26798 | tio2/O25 | 00:29:01 | MBXAS completed
+====================================================================================================
+PID 26798 |  Stopping execution for tio2/O25 at: Tue Sep 11 00:29:01 PDT 2018 | 00:29:01 | 
+PID 26798 |  Wall time: 0d 2h 23m 26s | 00:29:01 | 
+====================================================================================================
+

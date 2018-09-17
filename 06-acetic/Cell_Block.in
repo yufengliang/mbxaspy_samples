@@ -1,0 +1,11 @@
+# Add these lines to Input_Block.in
+# You choose the elements to excite
+# uncomment or edit these lines to make your preferred XASELEMENTS
+# XASELEMENTS='C H O'
+# XASELEMENTS='O1 O2 C3 C4 H5 H6 H7 H8 9'
+IBRAV=14
+A=12.8214
+B=13.2775
+C=11.7985
+XYZUNIT='angstrom'
+

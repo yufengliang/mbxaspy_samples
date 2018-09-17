@@ -1,0 +1,444 @@
+
+     Program SHIRLEY v.4.3      starts on 29Aug2018 at 11:59:29 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/wiki/index.php/Citing_Quantum-ESPRESSO
+
+     Parallel version (MPI), running on    64 processors
+     R & G space division:  proc/pool =   64
+
+     Ultrasoft (Vanderbilt) Pseudopotentials
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = **
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+  generating overlap matrix between optimal bases at
+    ../GS/tio2_opt
+    ./tio2.O25-FCH_opt
+ 
+     Message from routine read_file_shirley:
+     file ../GS/tio2_opt.save not guaranteed to be safe for post-processing
+         nkstot =            1
+           lsda =  F
+       noncolin =  F
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1s, nr2s, nr3s values from input
+         nspin =            1
+          npol =            1
+  current_spin =            1
+  gamma_only =  F
+  at =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000  0.966777806834031     
+  bg =    1.00000000000000       0.000000000000000E+000  0.000000000000000E+000
+  0.000000000000000E+000   1.00000000000000       0.000000000000000E+000
+  0.000000000000000E+000  0.000000000000000E+000   1.03436383513474     
+ 
+   Stick Mesh
+   ----------
+   nst =  8889,  nstw =   885, nsts =  3569
+               n.st   n.stw   n.sts    n.g    n.gw   n.gs
+   min         138      13      55    9499     297    2397
+   max         140      14      56    9503     304    2418
+       8889     885    3569  608063   19277  153993
+ 
+  npwx =          304  npol =            1
+  npwx =          304  npol =            1
+  npwx =          297  npol =            1
+  npwx =          297  npol =            1
+  npwx =          297  npol =            1
+  npwx =          300  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          304  npol =            1
+  npwx =          297  npol =            1
+  npwx =          304  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          299  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          300  npol =            1
+  reading basis 1
+  nbnd =         2449
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          299  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          300  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  nbnd =         2449
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          300  npol =            1
+  npwx =          302  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          300  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          300  npol =            1
+  npwx =          304  npol =            1
+  npwx =          300  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  npwx =          300  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          297  npol =            1
+  npwx =          302  npol =            1
+  npwx =          304  npol =            1
+  reading basis 2
+  computing overlap
+  npw =          302  npwx =          302
+ 
+     shirley      :     19.28s CPU    969.07s WALL (       1 calls)
+     General routines
+     davcio       :      0.00s CPU      0.03s WALL (       2 calls)
+ 
+     Parallel routines

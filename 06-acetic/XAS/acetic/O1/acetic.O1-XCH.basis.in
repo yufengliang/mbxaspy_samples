@@ -1,0 +1,5 @@
+&input
+  prefix='acetic.O1-XCH',
+  outdir='./',
+  trace_tol=1.d-8,
+/

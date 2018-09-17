@@ -1,0 +1,35 @@
+&control
+    calculation='scf',
+    prefix='atom.O-FCH',
+    pseudo_dir='/global/home/groups-sw/nano/software/sl-7.x86_64/MBXAS/XCH_pseudos',
+    outdir='./',
+    wf_collect =.TRUE.,
+    restart_mode='from_scratch',
+    tstress=.true., tprnfor=.true.
+/
+&system
+    ibrav=14 , a=11.5030 , b=10.6710 , c=8.7380 , cosab=0.000000000000 , cosac=0.000000000000 , cosbc=0.000000000000
+    nat=1, ntyp=1, tot_charge=0,
+    nbnd=7, occupations='smearing', smearing='fd', degauss=0.0019,
+    ecutwfc =30, ecutrho=300,
+    
+    
+/
+&electrons
+    diagonalization='david'
+    conv_thr=1.0d-8,
+    mixing_beta=0.1,
+    mixing_mode='local-TF',
+    electron_maxstep=200,
+    diago_thr_init=,
+            diago_full_acc=.false.,
+    startingpot='atomic',
+            mixing_fixed_ns=0
+/
+ATOMIC_SPECIES
+OX 15.999 O.pbe-van-dgp-1s1.UPF
+ATOMIC_POSITIONS (angstrom)
+  OX 0.0 0.0 0.0
+K_POINTS automatic
+2 2 2 0 0 0
+

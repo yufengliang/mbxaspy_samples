@@ -1,0 +1,6 @@
+&input
+    prefix1 = 'tio2_opt'
+    outdir1 = '../GS'
+    prefix2 = 'tio2.O25-FCH_opt'
+    outdir2 = './'
+/
