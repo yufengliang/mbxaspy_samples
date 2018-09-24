@@ -2,6 +2,8 @@
 
 For more instructions, please go to the Chapter 2 of the [Shirley + MBXASPY manual](https://github.com/yufengliang/mbxaspy/blob/master/doc/Manual%20for%20ShirleyXAS%20%2B%20MBXASPY.pdf)
 
+The calculations are performed by ShirleyXAS (88d87250) and MBXASPY (e25b4180).
+
 ## 2.1	Quartz SiO2
 
 [./01-sio2](https://github.com/yufengliang/mbxaspy_samples/tree/master/01-sio2)
